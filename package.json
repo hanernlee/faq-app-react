@@ -1,0 +1,24 @@
+{
+  "name": "faq-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "tasks": "gulp --tasks",
+    "lint": "gulp lint",
+    "sass": "gulp sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CL",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "run-sequence": "^1.2.0"
+  }
+}
