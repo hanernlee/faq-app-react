@@ -21,15 +21,22 @@ var SearchFaq = React.createClass({
         }
 
         return <div>
-                  <input type="text" value={this.state.searchQuestion} onChange={this.filterResults} placeholder="Type here" />
+                  <div id="topSection">
+                    <div id="searchSection">
+                      <h1>What can we help you with?</h1>
+                      <input id="searchBox" type="text" value={this.state.searchQuestion} onChange={this.filterResults} placeholder="How can we help?" />
+                    </div>
+                  </div>
 
-                  <ul id="listQuestion">
-                    { faqLibrary.map(function(query){
-                        return <li className ="question" key={query.id}>{query.question}
-                        <p className="answer">{query.content}</p>
-                        </li>
-                    }) }
-                  </ul>
+                  <div>
+                    <ul id="listQuestion">
+                      { faqLibrary.map(function(query){
+                          return <li className ="question" key={query.id}>{query.question}
+                          <p className="answer">{query.content}</p>
+                          </li>
+                      }) }
+                    </ul>
+                  </div>
               </div>;
     }
 });

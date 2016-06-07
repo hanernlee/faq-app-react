@@ -410,11 +410,11 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
+  margin: 1.5rem 0 0rem 3rem;
   font-size: 90%; }
 
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -469,7 +469,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 0; }
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -518,5 +518,32 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+#container {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  min-height: auto; }
+  #container #topSection {
+    background-image: url("./images/meetup.jpg");
+    background-size: cover;
+    height: 60vh; }
+  #container #searchSection {
+    padding-top: 15%; }
+    #container #searchSection h1 {
+      color: white; }
+  #container #searchBox {
+    width: 25em; }
+  #container ul {
+    background-color: white; }
+  #container .question {
+    border: 1px solid #CCC;
+    padding: 2em; }
+  #container .question:hover {
+    color: plum; }
+  #container .question:hover p {
+    color: black; }
+
 .answer {
-  display: none; }
+  display: none;
+  cursor: text;
+  font-size: 0.8em; }
