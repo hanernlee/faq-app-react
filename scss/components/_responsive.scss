@@ -5,44 +5,63 @@
     }
 
     #topSection {
-      height:50vh;
-  }
+      height:40vh !important;
+    }
 
-  #searchSection {
-    h1 {
-      padding-top:2em;
+    #searchSection {
+      h1 {
+        padding-top:2em;
+      }
     }
   }
 
+  #noResults {
+    top: 50% !important;
   }
 }
 
 //for iPhone 5
 @media screen and (device-aspect-ratio: 40/71) {
 
+  #container {
+    #topSection {
+      height:50vh !important;
+    }
+
+    .question {
+      font-size:0.8em;
+    }
+  }
+
   #searchSection {
     margin:0 auto;
     width:80%;
+
+    h1 {
+      padding-top:1em !important;
+    }
 
     #searchBox {
       width:20em;
     }
   }
 
-  #container {
-    .question {
-      font-size:0.8em;
-    }
+  #noResults {
+    top: 60% !important;
   }
+
 }
 
 //iPad Air
-@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) {
+@media screen and (device-aspect-ratio: 3/4) {
 
-  #searchSection {
-    h1 {
-      padding-top:5em;
+  #container {
+    #topSection {
+      height:30vh !important;
     }
   }
 
+  #noResults {
+    top: 40% !important;
+  }
 }

@@ -466,18 +466,35 @@ there.
   #container .question {
     padding: 1em; }
   #container #topSection {
-    height: 50vh; }
+    height: 40vh !important; }
   #container #searchSection h1 {
-    padding-top: 2em; } }
+    padding-top: 2em; }
+  #noResults {
+    top: 50% !important;
+    left: 50%; } }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
+  #container #topSection {
+    height: 50vh !important; }
+  #container .question {
+    font-size: 0.8em; }
   #searchSection {
     margin: 0 auto;
     width: 80%; }
+    #searchSection h1 {
+      padding-top: 1em !important; }
     #searchSection #searchBox {
       width: 20em; }
-  #container .question {
-    font-size: 0.8em; } }
+  #noResults {
+    top: 60% !important;
+    left: 50%; } }
+
+@media screen and (device-aspect-ratio: 3 / 4) {
+  #container #topSection {
+    height: 30vh !important; }
+  #noResults {
+    top: 40% !important;
+    left: 50%; } }
 
 #nav-bar {
   position: fixed;
