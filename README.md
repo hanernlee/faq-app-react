@@ -28,7 +28,7 @@ Simple FAQ Search app built using React JS
   - Node.js was used together with Gulp to allow Browser-Sync for faster tweaking and testing, Autoprefixer and Saas compilation.
 
 3. Saas / CSS3 with Skeleton CSS
-  - I wanted to try out Skeleton CSS due to it's light weight library. I managed to tweak a few settings and colours but Saas really helped in terms managing my stylesheets.
+  - I wanted to try out Skeleton CSS due to it's light weight library. I managed to tweak a few settings and colours but Saas really helped in terms of managing my stylesheets.
 
 ### User Story
 As a User I want to be able to look for answers to commonly asked questions easily.
@@ -41,7 +41,7 @@ A navigation bar is also necessary should User wish to go back to the main page.
 
 ### Scaleability of design/code
 
-As more questions are being added to the FAQ collection, the page will increase height-wise without affecting other elements on the page. The search functionality will still work as they are being stored in an array of objects. React reduces massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
+As more questions are being added to the FAQ collection, the page will increase height-wise as they are being rendered on the page but will not affect other elements on the page. The search functionality will still work as these questions are being stored in an array of objects. React reduces massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
 
 
 
