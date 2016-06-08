@@ -17,6 +17,7 @@
   }
 }
 
+//for iPhone 5
 @media screen and (device-aspect-ratio: 40/71) {
 
   #searchSection {
@@ -33,4 +34,15 @@
       font-size:0.8em;
     }
   }
+}
+
+//iPad Air
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) {
+
+  #searchSection {
+    h1 {
+      padding-top:5em;
+    }
+  }
+
 }
