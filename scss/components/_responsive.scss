@@ -22,7 +22,6 @@ and (max-device-width : 736px) {
     }
 
     #searchSection {
-      padding-top:30% !important;
     }
   }
 
@@ -44,7 +43,6 @@ and (max-device-width : 667px) {
     }
 
     #searchSection {
-      padding-top:30% !important;
     }
   }
 
@@ -56,8 +54,11 @@ and (max-device-width : 667px) {
 
 //iPhone 5
 @media screen and (device-aspect-ratio: 40/71) {
-
   #container {
+    h1 {
+      font-size:3rem;
+      margin-bottom:1em !important;
+    }
     #topSection {
       height:50vh !important;
     }
@@ -70,7 +71,6 @@ and (max-device-width : 667px) {
   #searchSection {
     margin:0 auto;
     width:80%;
-    padding-top:10% !important;
 
     h1 {
       margin:0;
@@ -85,12 +85,4 @@ and (max-device-width : 667px) {
     top: 60% !important;
   }
 
-}
-
-@media screen and (max-width: 600px) {
-  #container {
-    #searchSection {
-      padding-top:40% !important;
-    }
-  }
 }

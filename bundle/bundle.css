@@ -469,8 +469,6 @@ hr {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   #container #topSection {
     height: 40vh !important; }
-  #container #searchSection {
-    padding-top: 30% !important; }
   #noResults {
     top: 50% !important; } }
 
@@ -479,30 +477,26 @@ hr {
     font-size: 3rem; }
   #container #topSection {
     height: 40vh !important; }
-  #container #searchSection {
-    padding-top: 30% !important; }
   #noResults {
     top: 50% !important; } }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
+  #container h1 {
+    font-size: 3rem;
+    margin-bottom: 1em !important; }
   #container #topSection {
     height: 50vh !important; }
   #container .question {
     font-size: 0.8em; }
   #searchSection {
     margin: 0 auto;
-    width: 80%;
-    padding-top: 10% !important; }
+    width: 80%; }
     #searchSection h1 {
       margin: 0; }
     #searchSection #searchBox {
       width: 20em; }
   #noResults {
     top: 60% !important; } }
-
-@media screen and (max-width: 600px) {
-  #container #searchSection {
-    padding-top: 40% !important; } }
 
 #nav-bar {
   position: fixed;
@@ -537,7 +531,8 @@ hr {
     -webkit-transition: 0.3s;
     transition: 0.3s; }
   #container #searchSection {
-    padding-top: 15%;
+    position: relative;
+    top: 40%;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
     #container #searchSection h1 {
