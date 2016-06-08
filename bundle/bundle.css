@@ -534,3 +534,15 @@ there.
 
 .active {
   color: #ff8422; }
+
+#noResults {
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: 0.1s;
+  transition: 0.1s; }
