@@ -1,26 +1,52 @@
-@media screen and (max-width: 736px) {
-  #container {
-    .question {
-      padding:1em;
-    }
+//iPad Air
+@media screen and (device-aspect-ratio: 3/4) {
 
+  #container {
+    #topSection {
+      height:30vh !important;
+    }
+  }
+
+  #noResults {
+    top: 40% !important;
+  }
+}
+
+//iPhone 6 Plus
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  #container {
     #topSection {
       height:40vh !important;
     }
 
     #searchSection {
-      h1 {
-        padding-top:2em;
-      }
+      padding-top:30% !important;
     }
-  }
-
-  #noResults {
-    top: 50% !important;
   }
 }
 
-//for iPhone 5
+//iPhone 6
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  #container {
+    h1 {
+      font-size:3rem;
+    }
+    #topSection {
+      height:40vh !important;
+    }
+
+    #searchSection {
+      padding-top:30% !important;
+    }
+  }
+
+}
+
+//iPhone 5
 @media screen and (device-aspect-ratio: 40/71) {
 
   #container {
@@ -36,9 +62,10 @@
   #searchSection {
     margin:0 auto;
     width:80%;
+    padding-top:10% !important;
 
     h1 {
-      padding-top:1em !important;
+      margin:0;
     }
 
     #searchBox {
@@ -52,16 +79,10 @@
 
 }
 
-//iPad Air
-@media screen and (device-aspect-ratio: 3/4) {
-
+@media screen and (max-width: 600px) {
   #container {
-    #topSection {
-      height:30vh !important;
+    #searchSection {
+      padding-top:40% !important;
     }
-  }
-
-  #noResults {
-    top: 40% !important;
   }
 }

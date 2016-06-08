@@ -460,15 +460,25 @@ hr {
   display: table;
   clear: both; }
 
-@media screen and (max-width: 736px) {
-  #container .question {
-    padding: 1em; }
+@media screen and (device-aspect-ratio: 3 / 4) {
+  #container #topSection {
+    height: 30vh !important; }
+  #noResults {
+    top: 40% !important; } }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   #container #topSection {
     height: 40vh !important; }
-  #container #searchSection h1 {
-    padding-top: 2em; }
-  #noResults {
-    top: 50% !important; } }
+  #container #searchSection {
+    padding-top: 30% !important; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #container h1 {
+    font-size: 3rem; }
+  #container #topSection {
+    height: 40vh !important; }
+  #container #searchSection {
+    padding-top: 30% !important; } }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
   #container #topSection {
@@ -477,19 +487,18 @@ hr {
     font-size: 0.8em; }
   #searchSection {
     margin: 0 auto;
-    width: 80%; }
+    width: 80%;
+    padding-top: 10% !important; }
     #searchSection h1 {
-      padding-top: 1em !important; }
+      margin: 0; }
     #searchSection #searchBox {
       width: 20em; }
   #noResults {
     top: 60% !important; } }
 
-@media screen and (device-aspect-ratio: 3 / 4) {
-  #container #topSection {
-    height: 30vh !important; }
-  #noResults {
-    top: 40% !important; } }
+@media screen and (max-width: 600px) {
+  #container #searchSection {
+    padding-top: 30% !important; } }
 
 #nav-bar {
   position: fixed;
@@ -520,11 +529,17 @@ hr {
   #container #topSection {
     background-image: url("./images/meetup.jpg");
     background-size: cover;
-    height: 60vh; }
+    height: 60vh;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
   #container #searchSection {
-    padding-top: 15%; }
+    padding-top: 15%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
     #container #searchSection h1 {
-      color: white; }
+      color: white;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
   #container #searchBox {
     width: 25em; }
   #container ul {

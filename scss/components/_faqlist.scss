@@ -9,12 +9,15 @@
     background-image: url('./images/meetup.jpg');
     background-size:cover;
     height:60vh;
+    transition:0.3s;
   }
 
   #searchSection {
     padding-top:15%;
+    transition:0.3s;
     h1 {
       color:white;
+      transition:0.3s;
     }
   }
 
