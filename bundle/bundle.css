@@ -470,7 +470,9 @@ hr {
   #container #topSection {
     height: 40vh !important; }
   #container #searchSection {
-    padding-top: 30% !important; } }
+    padding-top: 30% !important; }
+  #noResults {
+    top: 50% !important; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   #container h1 {
@@ -478,7 +480,9 @@ hr {
   #container #topSection {
     height: 40vh !important; }
   #container #searchSection {
-    padding-top: 30% !important; } }
+    padding-top: 30% !important; }
+  #noResults {
+    top: 50% !important; } }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
   #container #topSection {

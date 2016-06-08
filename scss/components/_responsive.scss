@@ -25,6 +25,10 @@ and (max-device-width : 736px) {
       padding-top:30% !important;
     }
   }
+
+  #noResults {
+    top: 50% !important;
+  }
 }
 
 //iPhone 6
@@ -42,6 +46,10 @@ and (max-device-width : 667px) {
     #searchSection {
       padding-top:30% !important;
     }
+  }
+
+  #noResults {
+    top: 50% !important;
   }
 
 }
