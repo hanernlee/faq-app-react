@@ -520,7 +520,8 @@ hr {
   margin: 0 auto;
   text-align: center;
   height: 100vh;
-  min-height: auto; }
+  min-height: auto;
+  -webkit-tap-highlight-color: transparent; }
   #container #topSection {
     background-image: url("./images/meetup.jpg");
     background-size: cover;
