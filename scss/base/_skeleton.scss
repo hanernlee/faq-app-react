@@ -126,6 +126,7 @@ body {
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   color: #222;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   margin:0; }
 
 
@@ -393,13 +394,3 @@ hr {
   content: "";
   display: table;
   clear: both; }
-
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
