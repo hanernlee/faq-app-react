@@ -4,7 +4,6 @@
   height:100vh;
   min-height:auto;
 
-
   #topSection {
     background-image: url('./images/meetup.jpg');
     background-size:cover;
@@ -27,16 +26,21 @@
   }
 
   .question {
-    border:1px solid #CCC;
+    border:1px solid $gray80;
     padding:2em;
+
+    span {
+      transition: 0.3s;
+    }
+
+    p {
+      color:$gray64;
+    }
+
   }
 
-  .question:hover {
-    color:plum;
-  }
-
-  .question:hover p{
-    color:black;
+  .question:hover span {
+    color:$pumpkin;
   }
 
 }
@@ -45,4 +49,8 @@
   display:none;
   cursor:text;
   font-size:0.8em;
+}
+
+.active {
+  color:$pumpkin;
 }

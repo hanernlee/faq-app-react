@@ -124,8 +124,9 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  margin:0; }
 
 
 /* Typography
@@ -158,9 +159,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
-a:hover {
-  color: #0FA0CE; }
+  text-decoration:none;
+  color:white;
+}
+
 
 
 /* Buttons
@@ -266,7 +268,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid $pumpkin;
   outline: 0; }
 label,
 legend {
@@ -301,8 +303,10 @@ ol ul {
   margin: 1.5rem 0 0rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 0; }
-
+  margin:0;
+  padding:0;
+  list-style:none;
+  cursor: pointer; }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -400,19 +404,3 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}

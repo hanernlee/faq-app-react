@@ -1,0 +1,19 @@
+#nav-bar {
+  position:fixed;
+  height:3em;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  color:white;
+
+  li {
+    padding-top:0.7em;
+    padding-left:1em;
+    display:inline-block;
+  }
+
+  #contactForm {
+    float:right;
+    padding-right:1em;
+  }
+}

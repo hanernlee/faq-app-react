@@ -1,6 +1,9 @@
 @charset 'UTF-8';
 
 @import 'base/reset';
+@import 'base/variables';
 @import 'base/skeleton';
 
+@import 'components/responsive';
+@import 'components/navbar';
 @import 'components/faqlist';

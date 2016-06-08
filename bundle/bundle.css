@@ -1,57 +1,4 @@
 @charset "UTF-8";
-/* apply a natural box layout model to all elements,
-   but allow overriding */
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-body {
-  margin: 0; }
-
-h1,
-h2,
-h3,
-h4,
-p,
-blockquote,
-figure,
-ol,
-ul {
-  margin: 0;
-  padding: 0; }
-
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  cursor: pointer; }
-
-main {
-  display: block; }
-
-h1,
-h2,
-h3,
-h4 {
-  font-size: inherit; }
-
-a,
-button {
-  color: inherit;
-  /* dose not inherit be default */
-  -webkit-transition: .3s;
-  transition: .3s; }
-
-a {
-  text-decoration: none; }
-
-img {
-  max-width: 100%;
-  height: auto;
-  border: 0; }
-
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -197,8 +144,9 @@ body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  margin: 0; }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -258,10 +206,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
-
-a:hover {
-  color: #0FA0CE; }
+  text-decoration: none;
+  color: white; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -372,7 +318,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #ff8422;
   outline: 0; }
 
 label,
@@ -414,7 +360,10 @@ ol ul {
   font-size: 90%; }
 
 li {
-  margin-bottom: 0; }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer; }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -513,11 +462,38 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-/* Larger than mobile */
-/* Larger than phablet (also point when grid becomes active) */
-/* Larger than tablet */
-/* Larger than desktop */
-/* Larger than Desktop HD */
+@media screen and (max-width: 736px) {
+  #container .question {
+    padding: 1em; }
+  #container #topSection {
+    height: 50vh; }
+  #container #searchSection h1 {
+    padding-top: 2em; } }
+
+@media screen and (device-aspect-ratio: 40 / 71) {
+  #searchSection {
+    margin: 0 auto;
+    width: 80%; }
+    #searchSection #searchBox {
+      width: 20em; }
+  #container .question {
+    font-size: 0.8em; } }
+
+#nav-bar {
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  color: white; }
+  #nav-bar li {
+    padding-top: 0.7em;
+    padding-left: 1em;
+    display: inline-block; }
+  #nav-bar #contactForm {
+    float: right;
+    padding-right: 1em; }
+
 #container {
   margin: 0 auto;
   text-align: center;
@@ -538,12 +514,18 @@ there.
   #container .question {
     border: 1px solid #CCC;
     padding: 2em; }
-  #container .question:hover {
-    color: plum; }
-  #container .question:hover p {
-    color: black; }
+    #container .question span {
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+    #container .question p {
+      color: #a3a3a3; }
+  #container .question:hover span {
+    color: #ff8422; }
 
 .answer {
   display: none;
   cursor: text;
   font-size: 0.8em; }
+
+.active {
+  color: #ff8422; }

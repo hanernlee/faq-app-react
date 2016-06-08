@@ -1,0 +1,36 @@
+@media screen and (max-width: 736px) {
+  #container {
+    .question {
+      padding:1em;
+    }
+
+    #topSection {
+      height:50vh;
+  }
+
+  #searchSection {
+    h1 {
+      padding-top:2em;
+    }
+  }
+
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+  #searchSection {
+    margin:0 auto;
+    width:80%;
+
+    #searchBox {
+      width:20em;
+    }
+  }
+
+  #container {
+    .question {
+      font-size:0.8em;
+    }
+  }
+}
