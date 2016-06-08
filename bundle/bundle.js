@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   $('#container').on('click', '.question', function() {
-      $(this).children('.answer').slideToggle(300);
+      $(this).find('.answer').slideToggle(300);
       $(this).toggleClass('active');
   });
 
