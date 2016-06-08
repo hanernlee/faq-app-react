@@ -14,7 +14,7 @@ var faqLibrary = [
 
     { id: 7,question: "Why are certain parts of the site not loading?", content: "Frankfurter brisket ribeye, strip steak pork loin tail alcatra beef. Salami tenderloin tri-tip, kevin beef ribs bacon sausage chicken meatloaf ham. Pork chop venison prosciutto strip steak ball tip tongue cow short loin."},
 
-    { id: 8,question: "How do I unsubscribe from MyStartUp", content: "Brisket tail boudin, bacon turducken frankfurter ground round swine cow meatloaf alcatra turkey venison bresaola meatball. Porchetta pork chop bresaola boudin jerky salami. Pork chop cow bacon jerky. Turkey turducken capicola flank strip steak, tenderloin spare ribs short loin. Beef ribs ribeye bacon kielbasa pork chop pork kevin pastrami shankle."},
+    { id: 8,question: "How do I unsubscribe from MyStartUp?", content: "Brisket tail boudin, bacon turducken frankfurter ground round swine cow meatloaf alcatra turkey venison bresaola meatball. Porchetta pork chop bresaola boudin jerky salami. Pork chop cow bacon jerky. Turkey turducken capicola flank strip steak, tenderloin spare ribs short loin. Beef ribs ribeye bacon kielbasa pork chop pork kevin pastrami shankle."},
 
     { id: 9,question: "Do I need to register to use MyStartUp?", content: "Prosciutto venison pork chop, doner beef ribs tail turducken kielbasa bacon rump bresaola. Leberkas strip steak picanha pancetta, fatback pork cupim biltong. Swine tail pork, pork loin rump biltong pancetta shank ham hock ball tip kevin salami chicken shankle. "},
 

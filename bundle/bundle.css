@@ -490,6 +490,11 @@ there.
     padding-top: 0.7em;
     padding-left: 1em;
     display: inline-block; }
+    #nav-bar li a {
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+  #nav-bar a:hover {
+    color: #ff8422; }
   #nav-bar #contactForm {
     float: right;
     padding-right: 1em; }

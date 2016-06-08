@@ -10,6 +10,14 @@
     padding-top:0.7em;
     padding-left:1em;
     display:inline-block;
+
+    a {
+      transition:0.3s;      
+    }
+  }
+
+  a:hover {
+    color: $pumpkin;
   }
 
   #contactForm {
