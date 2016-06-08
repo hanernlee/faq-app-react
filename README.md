@@ -41,9 +41,7 @@ A navigation bar is also necessary should User wish to go back to the main page.
 
 ### Scaleability of design/code
 
-As more questions are being added to the FAQ collection, the page will increase height-wise as they are being rendered on the page but will not affect other elements on the page. The search functionality will still work as these questions are being stored in an array of objects. React reduces massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
-
-
+As more questions are being added to the FAQ collection, the page will increase height-wise as they are being rendered on the page but will not affect other elements on the page. The search functionality will still work as these questions are being stored in an array of objects. In this instance, React helps reduce massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
 
 ## Links
 
