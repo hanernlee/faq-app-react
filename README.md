@@ -39,6 +39,10 @@ Results from the search should display instantly and "No Results Found" should b
 
 A navigation bar is also necessary should User wish to go back to the main page.
 
+### Wireframe
+
+<img src="http://i.imgur.com/LxFrVbv.png">
+
 ### Scaleability of design/code
 
 As more questions are being added to the FAQ collection, the page will increase height-wise as they are being rendered on the page but will not affect other elements on the page. The search functionality will still work as these questions are being stored in an array of objects. In this instance, React helps reduce massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
