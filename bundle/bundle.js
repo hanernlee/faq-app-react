@@ -7,9 +7,9 @@ $( document ).ready(function() {
 
   $('#container').on('keyup','#searchBox', function (event) {
     if ($('#listQuestion').children().length === 0) {
-      $('#noResults').css('opacity', '1');
+      $('#noResults').css('display', 'block');
     } else {
-      $('#noResults').css('opacity', '0');
+      $('#noResults').css('display', 'none');
     }
 
   });

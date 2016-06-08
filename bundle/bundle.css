@@ -136,6 +136,14 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
+li,
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent; }
+
 html {
   font-size: 62.5%; }
 
@@ -208,6 +216,9 @@ p {
 a {
   text-decoration: none;
   color: white; }
+
+a:link {
+  -webkit-tap-highlight-color: transparent; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -454,14 +465,6 @@ hr {
   display: table;
   clear: both; }
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
 @media screen and (max-width: 736px) {
   #container .question {
     padding: 1em; }
@@ -470,8 +473,7 @@ there.
   #container #searchSection h1 {
     padding-top: 2em; }
   #noResults {
-    top: 50% !important;
-    left: 50%; } }
+    top: 50% !important; } }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
   #container #topSection {
@@ -486,15 +488,13 @@ there.
     #searchSection #searchBox {
       width: 20em; }
   #noResults {
-    top: 60% !important;
-    left: 50%; } }
+    top: 60% !important; } }
 
 @media screen and (device-aspect-ratio: 3 / 4) {
   #container #topSection {
     height: 30vh !important; }
   #noResults {
-    top: 40% !important;
-    left: 50%; } }
+    top: 40% !important; } }
 
 #nav-bar {
   position: fixed;
@@ -553,13 +553,10 @@ there.
   color: #ff8422; }
 
 #noResults {
-  opacity: 0;
   margin: 0 auto;
   text-align: center;
   position: absolute;
   top: 80%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  -webkit-transition: 0.1s;
-  transition: 0.1s; }
+          transform: translateX(-50%) translateY(-50%); }
