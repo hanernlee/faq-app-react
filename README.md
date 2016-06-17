@@ -45,7 +45,7 @@ A navigation bar is also necessary should User wish to go back to the main page.
 
 ### Scaleability of design/code
 
-As more questions are being added to the FAQ collection, the page will increase height-wise as they are being rendered on the page but will not affect other components on the page. The search functionality will still work as these questions are being stored in an array of objects which will allow page to be updated dynamically. In this instance, React helps reduce massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
+As more questions are being added to the FAQ collection, the page will increase height-wise and will not affect other components on the page. The search functionality will still work as these questions are being stored in an array of objects which will allow the page to be updated dynamically. In this instance, React helps reduce massive boilerplate codes and avoids costly DOM operations by making updates in a very efficient manner.
 
 ## Links
 
@@ -53,4 +53,4 @@ As more questions are being added to the FAQ collection, the page will increase 
 [Check out the FAQ App here!](http://hanernlee.github.io/faq-app-react/)
 
 Alternatively clone this repo and run
-```npm install``` then ```npm start```
+```npm install``` then ```npm start```.
