@@ -49,4 +49,8 @@ As more questions are being added to the FAQ collection, the page will increase 
 
 ## Links
 
-[FAQ App!](http://hanernlee.github.io/faq-app-react/)
+
+[Check out the FAQ App here!](http://hanernlee.github.io/faq-app-react/)
+
+Alternatively clone this repo and run
+```npm install``` then ```npm start```
